@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.1</Version>
+    <Authors>Lykke</Authors>
+    <Company>Lykke</Company>
+    <Description>Lykke Pay Common Entities</Description>
+    <Copyright>https://github.com/LykkeCity/Lykke.Pay.Common.Entities</Copyright>
+    <PackageProjectUrl>https://github.com/LykkeCity/Lykke.Pay.Common.Entities</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/LykkeCity/Lykke.Pay.Common.Entities</PackageLicenseUrl>
+    <PackageIconUrl>https://avatars3.githubusercontent.com/u/14153330?v=3&amp;s=200</PackageIconUrl>
+    <RepositoryUrl>https://github.com/LykkeCity/Lykke.Pay.Common.Entities.git</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
