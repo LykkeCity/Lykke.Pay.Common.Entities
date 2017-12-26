@@ -4,6 +4,10 @@ namespace Lykke.Pay.Common.Entities.Entities
 {
     public class MerchantAssertBalance : IMerchantAssertBalance
     {
+        public MerchantAssertBalance()
+        {
+
+        }
         public MerchantAssertBalance(IMerchantAssertBalance assertBalance)
         {
             Assert = assertBalance.Assert;

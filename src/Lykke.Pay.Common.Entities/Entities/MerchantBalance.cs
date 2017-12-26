@@ -8,6 +8,10 @@ namespace Lykke.Pay.Common.Entities.Entities
     {
         public IEnumerable<IMerchantAssertBalance> Asserts { get; set; }
 
+        public MerchantBalance()
+        {
+            
+        }
         public MerchantBalance(IMerchantBalance balance)
         {
             Asserts = new List<IMerchantAssertBalance>(from a in balance.Asserts select a);
