@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
 
 namespace Lykke.Pay.Common.Entities.Interfaces
@@ -14,3 +13,4 @@ namespace Lykke.Pay.Common.Entities.Interfaces
 
     }
 }
+
