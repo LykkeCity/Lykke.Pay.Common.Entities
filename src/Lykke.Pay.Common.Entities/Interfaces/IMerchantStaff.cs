@@ -10,6 +10,7 @@ namespace Lykke.Pay.Common.Entities.Interfaces
         string MerchantStaffFirstName { get; set; }
         string MerchantStaffLastName { get; set; }
         string MerchantStaffPassword { get; set; }
+        string LwId { get; set; }
 
     }
 }

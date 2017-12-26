@@ -20,7 +20,7 @@ namespace Lykke.Pay.Common.Entities.Entities
             MerchantStaffFirstName = merchantStaff.MerchantStaffFirstName;
             MerchantStaffLastName = merchantStaff.MerchantStaffLastName;
             MerchantStaffPassword = merchantStaff.MerchantStaffPassword;
-            
+            LwId = merchantStaff.LwId;
         }
 
         public string MerchantId { get; set; }
@@ -28,5 +28,6 @@ namespace Lykke.Pay.Common.Entities.Entities
         public string MerchantStaffFirstName { get; set; }
         public string MerchantStaffLastName { get; set; }
         public string MerchantStaffPassword { get; set; }
+        public string LwId { get; set; }
     }
 }
